@@ -1,0 +1,94 @@
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 40px;
+    background-color: #0d0d0d;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    height: 35px; 
+  }
+  
+  .navbar img {
+    height: 30px;
+    margin-right: 35px;
+  }
+  
+
+  .navbar ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+
+  .navbar ul li {
+    margin: 0 20px;
+    position: relative;
+  }
+  
+
+  .navbar ul li a {
+    color: rgba(176, 176, 176, 0.85);
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 13px;
+    letter-spacing: 1px;
+    transition: color 0.2s ease;
+    display: flex;
+    align-items: center;
+  }
+  
+
+  .navbar ul li a:hover {
+    color: rgb(246, 242, 242);
+  }
+  
+  
+  .auth-buttons {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+  }
+  
+  .auth-buttons button {
+    margin-left: 15px;
+    padding: 8px 18px;
+    background-color: transparent;
+    color: rgba(245, 238, 238, 0.85);
+    font-weight: 600;
+    font-size: 14px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .auth-buttons .register-btn {
+    background-color: #0b3051;
+    color: rgb(243, 239, 239);
+    font-weight: 700;
+    padding: 6px 25px;
+    border: 2px solid #17558b;
+    border-radius: 20px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+  }
+  
+  .auth-buttons .register-btn:hover {
+    background-color: #114d82;
+    border-color: #114d82;
+  }
+  
+  .auth-buttons button:not(.register-btn) {
+    border: none;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.85);
+    margin-left: 10px;
+  }
+  
+  .auth-buttons button:not(.register-btn):hover {
+    background-color: transparent;
+    color: rgba(255, 255, 255, 1);
+  }
+  

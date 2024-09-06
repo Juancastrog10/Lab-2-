@@ -1,0 +1,94 @@
+.havefunbanner {
+    background-color: #000; 
+    background-image: url('http://imgfz.com/i/byiEQzH.png');
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat; 
+    height: 270px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.havefunbannercontainer-left {
+    flex: 1;
+    padding: 20px;
+    margin: 0 0 0 5rem;
+}
+
+.havefunbanner__container__right {
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 0 18rem;
+}
+
+h2 {
+    text-transform: uppercase;
+    color: #0768AF;
+    font-size: 40px;
+    margin: 0;
+    line-height: 1.2;
+}
+
+p {
+    color: white;
+    text-transform: capitalize;
+    font-size: 19px;
+    max-width: 250px;
+    line-height: 1.5;
+    overflow-wrap: break-word;
+    margin: 0 0 1.5rem 0;
+}
+
+h3 {
+    color: white;
+    font-size: 1.5em;
+    margin-bottom: 8px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    display: grid;
+    margin: 0;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+li {
+    color: white;
+    margin: 2px 0;
+    font-size: 17px;
+    text-transform: uppercase;
+}
+
+.button-register,
+.button-join {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 50px;
+    border-radius: 2rem;
+}
+
+.button-register a,
+.button-join a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding: 1rem 0;
+}
+
+.button-join {
+    border: 2px solid white;
+}
+.button-join :hover {
+    background-color: #0A3458;
+    border: 1px solid #07497C; 
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
